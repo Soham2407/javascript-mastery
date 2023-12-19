@@ -1,0 +1,101 @@
+*************** Javascript *******************
+
+- let, const, var 
+- == vs === 
+- conditional statements
+- loops
+- temporal dead zone 
+- null, undefined vs not defined 
+- execution context 
+- scopes
+- scope chain
+- factory functions
+- constructor functions
+- higher order functions 
+- event loop
+- setTimeout vs setInterval
+- local storage, session storage, cookies
+- ES6
+- babel
+- Math Object
+- Date and Time
+- array methods
+- string methods
+- programs
+
+
+- Advanced
+- Introduction
+- Block Scopes & let/const
+- Module Scope
+- Global Object
+- Function scope and Lexical environment
+- Hoisting
+- Closures - real examples
+- IIFE
+- Currying
+- Object references
+- Shallow copy and deep copy
+- this keyword & Methods
+- Symbol data type 
+- Functions as objects
+- Name function expressions (NFE)
+- Decorator Pattern  - Memoization
+- This - call, apply, bind
+- Debouncing
+- Throttling
+- Iterable and iterator protocols
+- Array like vs iterables
+- Map
+- Set
+- WeakMap and WeakSet
+- Generators
+- Protypical inheritance
+- Constructors, .prototype and methods
+- Native prototypes
+- Primitives as Objects
+- Polyfills
+- Static properties 
+- Class syntax
+- Getters/ setters
+- Computer property names
+- "this" binding issues
+- Inheritance
+- Static methods in Class
+- Private and protected members
+- Asynchronous Javascript - Callbacks
+- Callback hell
+- Promises & Chaining
+- Promise API
+- Async Await
+- Async Iterators & Async Generators 
+
+
+
+**************** React JS ********************
+
+- what is react 
+- why react 
+- library vs frameworks 
+- create-react app with vite 
+- components
+- jsx 
+- props
+- event handling (react events)
+- react fragments
+- conditional rendering
+- list and keys
+- useState hook
+- state vs props
+- component lifecycle methods
+- lifting state up
+- useEffect
+- Reconcilation, react fibre, virtual dom
+- hooks - useRef, useReducer, useContext, useCallback, useMemo
+- higher order components
+- error boundaries
+- react router dom
+- redux
+- redux-toolkit
+
+
