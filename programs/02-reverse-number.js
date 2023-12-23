@@ -1,4 +1,4 @@
-let num = parseInt(prompt("enter a num"));
+let num = 942;
 let reverse = 0;
 let rem;
 
@@ -8,4 +8,4 @@ while (num !== 0) {
   num = Math.floor(num / 10);
 }
 
-console.log("reverse number - ", reverse);
+console.log(`reverse num is ${reverse}`);

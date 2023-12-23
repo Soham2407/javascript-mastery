@@ -1,4 +1,3 @@
-// generate random hex color code
 function generateRandomColor() {
   const hex = "0123456789ABCDEF";
   let color = "#";
@@ -8,20 +7,20 @@ function generateRandomColor() {
   return color;
 }
 
+let startBtn = document.getElementById("start");
+let stopBtn = document.getElementById("stop");
+
 let intervalId;
 
-const startChangingColor = () => {
-  intervalId = setInterval(() => {
-    document.body.style.backgroundColor = generateRandomColor();
-  }, 1500);
-};
+startBtn.addEventListener("click", function () {
+  if (!intervalId) {
+    intervalId = setInterval(() => {
+      document.body.style.backgroundColor = generateRandomColor();
+    }, 1000);
+  }
+});
 
-// click on start button
-document.querySelector("#start").addEventListener("click", startChangingColor);
-
-function stopChangingColor() {
+stopBtn.addEventListener("click", function () {
   clearInterval(intervalId);
-}
-
-// click on stop button
-document.querySelector("#stop").addEventListener("click", stopChangingColor);
+  intervalId = null;
+});
